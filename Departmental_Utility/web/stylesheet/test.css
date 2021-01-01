@@ -1,0 +1,101 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 May, 2020, 3:48:17 PM
+    Author     : Shivansh
+*/
+
+/* Style the sidebar - fixed full height */
+body{
+    background-color: rgb(255, 255, 255);
+    
+    overflow-x: hidden;
+  }
+  
+  
+  
+  
+  .sidebar {
+      height: relative;
+      width: 250px;
+      position: relative;
+      /* z-index: inherit; */
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-y: scroll;
+      padding-top: 16px;
+      
+    }
+    
+    /* Style sidebar links */
+    .sidebar .btn, .dropdown-btn {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #818181;
+      display: block;
+      background-color: #111;
+      border: none;
+      text-align: left;
+      height: 60px;
+    }
+    
+    /* Style links on mouse-over */
+    .sidebar .btn:hover{
+      color: #f1f1f1;
+      background-color: #008000;
+       font-weight: bolder;
+    }
+  
+  
+   /* Add an active class to the active dropdown button
+  .active {
+    background-color: green;
+    color: white;
+  } */
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+    .dropdown-container {
+      display: none;
+      background-color: #363636;
+      padding-left: 8px;
+      text-align: left;
+      
+    }
+  
+    .dropdown-container .btn {
+     
+      color: #f1f1f1;
+      background-color: #363636;
+      padding-left: 8px;
+      text-align: left;
+      height: 50px;
+      font-size: 17px;
+      
+    }
+    .dropdown-container .btn:hover{
+      background-color: #8bcc6d;
+      color: black;
+    }
+  
+   
+  /* Style the main content */
+    .main {
+      margin-left: 160px; /* Same as the width of the sidenav */
+      padding: 0px 10px;
+    }
+  
+    .main-content{
+      height: 100%;
+      position: static;
+    }
+    
+    /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+    @media screen and (max-height: 450px) {
+      .sidebar {padding-top: 15px;}
+      .sidebar a {font-size: 18px;}
+    }

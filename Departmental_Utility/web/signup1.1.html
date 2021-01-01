@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script type="text/javascript" src="javascripts/signup.js"> </script>
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <title>SignUp | Department Utility</title>
+
+            <style>
+                .navbar{
+
+        background-color: #677376; 
+        height: 80px;
+        
+        }
+
+        .login-form input{
+            
+            padding-top: 5px;
+
+        }
+        .footer{
+
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+
+        }
+
+        /* .container{
+            background-color: dimgray;
+        } */
+            </style>
+        </head>
+
+
+            <body>
+                
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-bottom: 0cm;">
+                    <a class="navbar-brand" href="home.html"> &nbsp;&nbsp;&nbsp;&nbsp; Project Management System</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>  
+                
+               
+                
+                        <div class="container ">
+                   
+                            <div class="row">
+                                <div class="col-md-2" style="" >
+                                    <img src="/img/Signup-2.png" alt="">
+                                </div>   
+                     
+                    
+                    <div class="col-md-2">
+                        <br> <br> <br> <br> <br> <br> <br>
+                        <button type="button" class="btn btn-outline-primary " style="height: 70px; width: 150px;" id="btn-fac" onclick="getSignUpForm(this.id)"><b>FACULTY </b> </button>
+                        <br><br> <br> <br> 
+                        <button type="button" class="btn btn-outline-primary" style="height: 70px; width: 150px;" id="btn-stu" onclick="getSignUpForm(this.id)"><b> STUDENT </b> </button>
+                    </div> 
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6" >
+                        <br> 
+                       <!-- <div class="jumbotron"> -->
+                             <div id="signupform"> <br> <br> <br> <br> <br> <br>
+                               &nbsp;&nbsp; &nbsp; &nbsp;   <img src="img/Signup-3.jpg" alt="" style="height: 80%;width: 80%;">
+                             </div>
+                        <!-- </div> -->
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+                
+                    <br> <br> <br> <br>
+                <footer class="footer">
+                    
+              
+                      <div class=" footer-copyright text-center  text-capitalize bg-dark text-white" style="height: 50px;"> 
+                       <p>  &copy; projectManagementUIT: 2020 </p>
+                    </div>
+                  </footer>
+            </body>
+</html>

@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19 May, 2020, 4:25:09 PM
+    Author     : Shivansh
+*/
+
+ /* OVerlay CSS */
+ #overlay {
+  position: fixed;
+  display:none;
+  height: 100%;
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(48, 47, 47, 0.932);
+  z-index: 2;
+  cursor: pointer;
+  color:whitesmoke;
+  overflow-y: auto;
+  padding: 25px;
+  height: 625px;
+  padding-top: 0;
+}
+
+
+.overlay-image{
+  width: 100%;
+  max-width: 350px;
+  height: 100%;
+  height: 250px;
+}
+
+#text-overlay{
+  height: 520px;
+  overflow-y: auto;
+}
+
+#close{
+  color: rgba(245, 239, 239, 0.932);
+  
+}
+
+
+#close:hover,
+#close:focus {
+  color: rgb(255, 207, 77);
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+  cursor: pointer;
+}
+
+.trow:hover,.trow:focus{
+ 
+ transform: scale(1.3);
+font-weight: bolder; 
+}
+

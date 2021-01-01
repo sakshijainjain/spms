@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry including="dept/" kind="src" path="Departmental_Utility/src/java"/>
+	<classpathentry exported="true" kind="lib" path="Departmental_Utility/build/web/WEB-INF/lib/ojdbc14.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="output" path="Departmental_Utility/build/web/WEB-INF/classes"/>
+</classpath>

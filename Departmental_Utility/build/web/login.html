@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script type="text/javascript" src="javascripts/signup.js"> </script>
+   <script type="text/javascript" src="javascripts/login.js"> </script>
+  
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <title>Login | Departmental Utility</title>
+
+            <style>
+                .navbar{
+
+        background-color: #677376; 
+        height: 80px;
+        
+        }
+
+        .login-form input{
+            
+            padding-top: 5px;
+
+        }
+        .footer{
+
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+
+        }
+
+        html,
+body {
+  height: 100%;
+}
+
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+        /* .container{
+            background-color: dimgray;
+        } */
+            </style>
+        </head>
+
+
+        <body class="text-center">
+                
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-bottom: 0cm;">
+                    <a class="navbar-brand" href="home.html"> &nbsp;&nbsp;&nbsp;&nbsp; Project Management System</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>  
+                
+                
+                  <form class="form-signin">
+                    <br> <br> <br>
+                    <h1 class="h3 mb-3 font-weight-normal"><b> Please Log In </b></h1>
+                    <label for="inputEmail" class="sr-only">Email address</label>
+                    <input type="email" id="inputEmail" class="form-control" placeholder="UserId" required autofocus>
+                    <label for="inputPassword" class="sr-only">Password</label>
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                    <div class="checkbox mb-3">
+                      <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                      </label>
+                    </div>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="connectStudent()">Login</button> <br>
+                    <p class='message '><b> Not registered? </b><a href='signup1.1.html'> Sign up </a></p>  
+                    <p class='message '><b>  Back to </b> <a href='home.html'> HomePage  </a></p> 
+                  </form>
+               
+                   
+                      <footer class="footer">
+                        <div class=" footer-copyright text-center  text-capitalize bg-dark text-white" style="height: 50px;"> 
+                            <p>  &copy; projectManagementUIT: 2020 </p>
+                          </div>
+                      </footer>
+            </body>
+</html>
